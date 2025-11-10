@@ -1,0 +1,10 @@
+s = input("Введите строку: ")
+new_s = s.replace('а', 'о')
+count_replace = s.count('а')
+total_symbols = len(s)
+new_s = s.replace('а', 'о').replace('А', 'О')
+count_replace = s.count('а') + s.count('А')
+
+print(f"Результат замены: {new_s}")
+print(f"Количество замен: {count_replace}")
+print(f"Всего символов в строке: {total_symbols}")
